@@ -1,0 +1,248 @@
+body {
+  counter-reset: item;
+}
+.clear {
+  clear: both;
+}
+#bannerad {
+  width: 100%;
+  min-height: 100%;
+  position: relative;
+  background-color: #fff;
+  /*min-height: 1000px;*/
+}
+.promo-logo {
+  background-image: url(http://easi-way.com/img/logo-color.png);
+  background-repeat: no-repeat;
+  background-size: 140px 36px;
+  text-indent: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  width: 140px;
+  height: 36px;
+  position: absolute;
+  top: 26px;
+  left: 48px;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-logo {
+    top: 40px;
+    left: 20px;
+    width: 87px;
+    height: 22px;
+    background-size: 87px 22px;
+  }
+}
+.bannerview {
+  height: 58vw;
+  width: 100%;
+  background-image: url(http://easi-way.com/img/ver3/shuttle/img-promo-shuttle-map.svg), url(http://easi-way.com/img/ver3/shuttle/img-promo-shuttle-bg.svg);
+  background-position: right top, left bottom;
+  background-repeat: no-repeat;
+  text-align: center;
+  background-size: 45%, 100%;
+  display: table;
+}
+@media screen and (max-width: 39.9375em) {
+  .bannerview {
+    background-image: url(http://easi-way.com/img/ver3/shuttle/img-promo-shuttle-map-mobile.svg), url(http://easi-way.com/img/ver3/shuttle/img-promo-shuttle-bg.svg);
+    height: 88vw;
+  }
+}
+@media screen and (max-width: 39.9375em) {
+  .bannerview {
+    background-size: 53%, 100%;
+    text-align: left;
+    padding-left: 27px;
+  }
+}
+.bannerview .textbox {
+  display: table-cell;
+  vertical-align: middle;
+  padding-bottom: 30px;
+}
+.bannerview .textbox h2 {
+  font-size: 34px;
+  color: #5dc1a4;
+}
+.bannerview .textbox h3 {
+  font-size: 18px;
+  color: #9b9b9b;
+  margin-bottom: 3px;
+}
+.bannerview .textbox h1 {
+  color: #5dc1a4;
+  font-size: 70px;
+}
+@media screen and (max-width: 39.9375em) {
+  .bannerview .textbox h2 {
+    font-size: 20px;
+  }
+  .bannerview .textbox h3 {
+    font-size: 11px;
+  }
+  .bannerview .textbox h1 {
+    color: #5dc1a4;
+    font-size: 40px;
+  }
+}
+.promo-content {
+  text-align: center;
+  padding-top: 86px;
+}
+.promo-content h2 {
+  font-size: 35px;
+  color: #5dc1a4;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-content {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+  }
+  .promo-content h2 {
+    font-size: 20px;
+  }
+}
+.promo-content .promocode {
+  background-color: #15d09a;
+  color: #fff;
+  font-size: 35px;
+  width: 395px;
+  height: 64px;
+  line-height: 64px;
+  margin: 0 auto;
+  border-radius: 2px;
+  margin-bottom: 30px;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-content .promocode {
+    width: 247px;
+    font-size: 25px;
+  }
+}
+.promo-content .ad-notices {
+  color: #555;
+  margin: 0 auto;
+  margin-bottom: 35px;
+  list-style: none;
+}
+.promo-content .ad-notices li {
+  display: inline;
+  margin-right: 10px;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-content .ad-notices li {
+    display: inherit;
+  }
+}
+.promo-content .ad-notices li:before {
+  content: '\00B7';
+  margin-right: 3px;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-content .ad-notices {
+    font-size: 12px;
+    text-align: left;
+  }
+}
+.promo-content .steps {
+  text-align: left;
+  margin: 0 auto;
+  max-width: 530px;
+  font-size: 20px;
+  color: #555;
+  list-style: none;
+}
+.promo-content .steps li {
+  margin-bottom: 20px;
+  line-height: 28px;
+  position: relative;
+  padding-left: 40px;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-content .steps li {
+    font-size: 14px;
+    line-height: 15px;
+    padding-left: 16px;
+  }
+}
+.promo-content .steps li.step1:before {
+  content: '1';
+}
+.promo-content .steps li.step2:before {
+  content: '2';
+}
+.promo-content .steps li.step3:before {
+  content: '3';
+}
+.promo-content .steps li:before {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #15d09a;
+  display: inline-block;
+  position: absolute;
+  color: white;
+  text-align: center;
+  margin-right: 12px;
+  left: 0;
+}
+@media screen and (max-width: 39.9375em) {
+  .promo-content .steps li:before {
+    width: 14px;
+    height: 14px;
+    margin-right: 5px;
+  }
+}
+.promo-content .line {
+  border-bottom: 1px dashed #5dc1a4;
+  height: 2px;
+  width: 100%;
+  max-width: 521px;
+  margin: 30px auto;
+}
+#bannerad-bar {
+  min-height: 50px;
+  position: relative;
+  background-color: #248663;
+  border-left: 1px solid #e0e0e0;
+  border-right: 1px solid #e0e0e0;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+#bannerad-bar .adcontent {
+  margin: 0;
+  color: #fff;
+}
+#bannerad-bar:hover {
+  background-color: #4CBC90;
+  cursor: hand;
+  cursor: pointer;
+}
+.adcontent {
+  max-width: 800px;
+  width: 70%;
+  position: relative;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+  transform: translateX(-50%);
+  text-align: center;
+  z-index: 18;
+}
+.couponcode {
+  font-size: .8em;
+  letter-spacing: .1em;
+  background-color: rgba(0, 0, 0, 0.15);
+  padding: 5px 6px;
+  border-radius: 2px;
+  font-weight: bold;
+  margin: 0 4px;
+  text-transform: uppercase;
+}

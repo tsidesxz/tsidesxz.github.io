@@ -1,0 +1,23 @@
+@font-face {
+  font-family: 'NotoLight';
+  font-style: thin;
+  font-weight: 200;
+  src: 
+  	url('http://easi-way.com/fonts/subset/NotoLight.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoRegular';
+  font-style: normal;
+  font-weight: 400;
+  src: 
+  	url('http://easi-way.com/fonts/subset/NotoRegular.otf') format('truetype');
+}
+
+@font-face {
+  font-family: 'NotoMedium';
+  font-style: medium;
+  font-weight: 600;
+  src: 
+  	url('http://easi-way.com/fonts/subset/NotoMedium.otf') format('truetype');
+}
